@@ -1,0 +1,41 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+header {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+}
+
+a {
+    padding-top: 7px;
+    font-weight: bold;
+}
+
+.login {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.card {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
